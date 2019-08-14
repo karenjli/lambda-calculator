@@ -22,13 +22,17 @@ function App() {
   return (
     <div className="container">
        <Logo />
+       <Display />
       <div className="App">
         {/* STEP 4 - Render your components here and be sure to properly import/export all files */}
-       
-        <Display />
-        <Numbers />
-        <Operators />
-        <Specials />
+        
+        <div className = "keys">
+            <Specials />
+            <Numbers />
+        </div>  
+        <div className ="columnKey">
+            <Operators />
+        </div>
       </div>
     </div>
   );

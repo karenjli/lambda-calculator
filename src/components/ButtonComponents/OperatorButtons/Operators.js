@@ -9,16 +9,18 @@ const Operators = () => {
   // STEP 2 - add the imported data to state
   const [operator, setOperator] = useState ({operators});
   console.log(useState());
+  const [backgroundcolor, setBackgroundcolor] = useState ("steelblue");
+  const [color, setColor] = useState ("white");
   
   return (
-    <div>
+    <div class = "operatorholder">
      
       {/* STEP 3 - Use .map() to iterate over your array data and return a button
        component matching the name on the provided file. Pass
        it any props needed by the child component
        numbers.map (number => {prop.numbers === number})
        */}
-       {operators.map(operator => <OperatorButton operatorvalue = {operator.char} />)}
+       {operators.map(operator => <OperatorButton operatorvalue = {operator.char} backgroundcolor = {backgroundcolor} color = {color} />)}
     </div>
   );
 };
