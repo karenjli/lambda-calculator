@@ -1,0 +1,102 @@
+.container {
+    width: 300px;
+    height: 420px;
+    background-color: darkred;
+    
+  }
+  
+.logo {
+      margin: 10px;
+  }
+
+  .displayBox {
+      background-color: #1b1b1b;
+      border-radius: 30px;
+      height: 50px;
+      margin: 0px 20px;
+  }
+
+  .App {
+    display: flex;
+    flex-flow: row;
+    justify-content: space-between;
+    width: 280px;
+    height: 180px;
+    margin: 0px 20px;
+  }
+  
+  .keys {
+      display: flex;
+      flex-direction: column;
+      width: 200px;
+      margin: 10px 0px;
+
+  }
+
+        .numberholder {
+            flex-wrap: wrap;
+            display: flex;
+            justify-content: space-between;
+            align-content: space-between;
+        }
+
+        .specialholder {
+            display: flex;
+            margin: 10px 0px;
+            display: flex;
+            justify-content: space-between;
+
+        }
+  
+            .numberbutton {
+                border-radius: 30px;
+                border: 1px darkblue;
+                box-shadow: 1px black;
+                margin-bottom: 2px;
+            }
+            
+            .specialbutton {
+                display: flex;
+                border-radius: 30px;
+                width: 50px;
+                height: 50px;
+                border: 1px #00407c;
+                font-size: 26px;
+                text-align: center;
+                padding-left: 12px;
+            }
+
+  
+.columnKey {
+    width: 80px;
+    margin: 20px 10px;
+}
+
+  .operatorholder {
+      width: 80px;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+      margin-bottom: 10px;
+      
+    
+      
+  }
+
+    .operatorbutton {
+        display: flex;
+        border-radius: 30px;
+        width: 50px;
+        height: 50px;
+        
+        margin-left: 10px;
+        margin-bottom: 2px;
+        border: 1px steelblue;
+        font-size: 26px;
+        padding-left: 20px;
+      
+            
+
+    }
+
+  
